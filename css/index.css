@@ -1,0 +1,57 @@
+* {
+  line-height: 3.5;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: darkred;
+}
+
+.recipe-card {
+  width: 400px;
+  background-color: #fffafa;
+  text-align: center;
+}
+
+.recipe-content {
+  text-align: left;
+}
+
+.recipe-card h2,
+.recipe-card a {
+  text-transform: uppercase;
+}
+
+ul li h2 {
+  font-size: 16px;
+}
+
+.recipe-card.feature {
+  border: 2px solid darkred;
+}
+
+.recipe-card a {
+  background-color: #fc9400;
+  color: #fff;
+  text-decoration: auto;
+}
+
+/* ========== CHALLENGE 3 ========== //
+//
+// 1. Change <h2> elements within a <ul> and <li> to be 16px
+// 2. Update recipe card link styles, set:
+//      -- background color to #fc9400
+//      -- text color to white
+//      -- remove underline
+*/
