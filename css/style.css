@@ -9,10 +9,14 @@ html {
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 3.5;
   color: #250918;
   background-color: #f7deeb;
+}
+
+.content-wrapper {
+  padding: 8px;
 }
 
 img {
@@ -44,22 +48,7 @@ ul {
   text-align: left;
 }
 
-.recipe-card h2,
-.recipe-card a {
-  text-transform: uppercase;
-}
-
 ul li h2 {
   font-size: 16px;
   padding: 0rem;
-}
-
-.recipe-card.feature {
-  border: 2px solid darkred;
-}
-
-.recipe-card a {
-  background-color: #fc9400;
-  color: #fff;
-  text-decoration: auto;
 }
